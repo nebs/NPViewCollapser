@@ -1,9 +1,14 @@
 NPViewCollapser
 ===============
 
-iOS class for collapsing views in a book closing style.
-
 NPViewCollapser is used to apply a book-style folding effect to any view.
+
+![Alt text](/Screenshots/normal.png "Normal")
+![Alt text](/Screenshots/collapsed.png "Collapsed")
+
+All you need to use NPViewCollapser are NPViewCollapser.h and NPViewCollapser.m.
+
+The included sample project lets you demo the effect by manually dragging the slider or animating the change using the expand and collapse buttons.  Animations are accomplished using another custom class (NPProgressTimer).  See the 'Animating' section below for details.
 
 Usage
 -----
