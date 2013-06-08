@@ -48,7 +48,7 @@ static const CGFloat kNPViewCollapserM34 = -1.0f / 2000.0f;
     CGFloat w = self.viewToCollapse.frame.size.width;
     CGFloat h = self.viewToCollapse.frame.size.height;
 
-    // Creating a new overlay and place it on top of the targe view
+    // Create a new overlay and place it on top of the target view
     self.overlayView = [[UIView alloc] initWithFrame:self.viewToCollapse.bounds];
     [self.overlayView setBackgroundColor:[UIColor clearColor]];
     [self.viewToCollapse.superview addSubview:self.overlayView];
